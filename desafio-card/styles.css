@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
+
 body {
-    height: 100vh;
+    min-height: 100vh;
+    padding: 3em 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,12 +17,22 @@ body {
     font-size: 18px;
 }
 
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.lista li {
+    list-style: none;
+}
+
 .card {
     background-color: white;
     display: inline-block;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
     text-align: center;
-    width: 25%;
     border-radius: 20px;
     padding-bottom: 32px;
 }
