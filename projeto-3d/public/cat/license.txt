@@ -1,0 +1,11 @@
+Model Information:
+* title:	Toon Cat FREE
+* source:	https://sketchfab.com/3d-models/toon-cat-free-b2bd1ee7858444bda366110a2d960386
+* author:	Omabuarts Studio (https://sketchfab.com/omabuarts)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Toon Cat FREE" (https://sketchfab.com/3d-models/toon-cat-free-b2bd1ee7858444bda366110a2d960386) by Omabuarts Studio (https://sketchfab.com/omabuarts) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
