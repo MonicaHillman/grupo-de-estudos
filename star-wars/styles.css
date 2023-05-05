@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+/* BASICAO DO RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/d7/a6/11/d7a61190a836bdcfc62bf97af4f4c74b.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*
+  COMO CENTRALIZAR COM GRID
+  display: grid;
+  place-content: center;
+  */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.container::before {
+    content: '';
+    background-color: black;
+    inset: 0;
+    position: absolute;
+
+    filter: blur(4px) opacity(0.5);
+}
+
+h2 {
+    font-family: 'Star Wars', sans-serif;
+    /* tenta usar a star wars, se não rolar, vai usar alguma outra sem serifa */
+    color: gold;
+    font-size: 2.5rem;
+    z-index: 1;
+}
+
+button {
+    z-index: 1
+}
+
+.frase {
+    font-family: 'Verdana';
+    font-weight: 700;
+    color: white;
+    width: 80%;
+    text-align: center;
+    z-index: 1;
+}
